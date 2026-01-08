@@ -26,7 +26,7 @@ The `src/construct` directory contains the core code for dataset construction, i
 
 ### Result Generation
 The `src/generate` directory contains scripts that use LLMs to generate results for the three tasks. Users need to provide their own API key and related configurations in `llm_caller.py`.
-In addition, the `src` directory provides shell scripts that use GPT-4o-mini to solve the three tasks, namely `gen_deobf.sh`, `gen_desc.sh`, and `gen_clone.sh`.
+In addition, we provides shell scripts that use GPT-4o-mini to solve the three tasks, namely `gen_deobf.sh`, `gen_desc.sh`, and `gen_clone.sh`.
 
 
 
